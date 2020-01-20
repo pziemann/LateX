@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage[polish]{babel}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\title{Zaliczenie z latecha}
+\author{Pawel Ziemann}
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\listoffigures
+\section{Tabele}
+\subsection{Oceny}
+\begin{table}[h]
+\begin{tabular}{|c|c|c|}
+\hline
+Imie & Ocena & ocena2\\ 
+\hline 
+PUDZIAN & 7 & 3\\ 
+\hline 
+ADAM MAŁYSZ & 5 & 3\\ 
+\hline 
+PAPIESZ & 4 & 3\\
+\hline 
+2137 & 2 & 3\\ 
+\hline 
+JÓZEF & 4 & 3\\ 
+\hline 
+\end{tabular}
+\end {table}
+\subsection{Pi}
+\begin{tabular}{c r @{,} l}
+Wyrażenie &
+\multicolumn{2}{c}{Wartość}\\ \hline %multicolumn, zeby byla liczba znaczaca
+$\pi$ & 3&1416 \\
+$\pi^{\pi}$ & 36&46 \\
+$(\pi^{\pi})^{\pi}$ & 80662&7 \\
+\end{tabular}
+\section{Wzory matematyczne}
+\subsection{Heron}
+\begin{center}
+{\LARGE Wzór Herona }
+\end{center}
+\begin{equation}
+\mathit{P_\Delta} = \sqrt{p(p-a)(p-b)(p-c)}
+\end{equation}
+\section{Itemizacja}
+\begin{itemize}
+\item KEKW
+\item Kappa
+\item DansGame
+\item PepooLove
+\end{itemize}
+\begin{figure}
+\includegraphics[scale=0.2]{benc.jpg}
+\caption{Heron, koloryzowane}
+\end{figure}
+\begin{thebibliography}{9}
+\bibitem{1}
+ Paweł Ziemann,
+ \emph{Coś ważnego}.
+ Publikacja 1,
+ 2020.
+ \bibitem{2}
+ też coś
+\end{thebibliography}
+\end{document}
